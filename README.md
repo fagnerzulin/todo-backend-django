@@ -6,7 +6,7 @@
 
 ---
 
-Esse projeto éum backend para uma aplicação de To Do (registro de tarefas a fazer). Fora feito como desafio passado no âmbito das mentorias do Programa Desenvolve do Grupo Boticário (para saber mais do programa **[Click Aqui](https://desenvolve.grupoboticario.com.br/)**). A lista de tecnologias utilizadas estão na seção a seguir.
+Esse projeto é um backend para uma aplicação de To Do (registro de tarefas a fazer). Fora feito como desafio passado no âmbito das mentorias do Programa Desenvolve do Grupo Boticário (para saber mais do programa **[Click Aqui](https://desenvolve.grupoboticario.com.br/)**). A lista de tecnologias utilizadas estão na seção a seguir.
 
 Para acessar a página da api: **[Click Aqui](https://todo-backend-django-z.herokuapp.com/)**
 
