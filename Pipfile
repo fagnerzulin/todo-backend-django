@@ -12,10 +12,11 @@ whitenoise = "*"
 gunicorn = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
-flake8 = "*"
+django-rest-knox = "*"
 
 [dev-packages]
 autopep8 = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.8"

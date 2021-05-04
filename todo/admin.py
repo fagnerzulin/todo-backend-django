@@ -3,9 +3,9 @@ from todo.models import Todo
 
 
 class TodoAdmin(admin.ModelAdmin):
-    list_display = ('title', 'description', 'completed', 'createdAt', 'updateAt')
+    list_display = ('user', 'title', 'description', 'completed', 'createdAt', 'updatedAt')
     list_filter = ('completed', )
-    search_fields = ('title',)
+    search_fields = ('title', 'user')
 
 
 admin.site.register(Todo, TodoAdmin)
