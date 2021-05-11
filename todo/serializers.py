@@ -17,13 +17,11 @@ class TodoSerializer(serializers.ModelSerializer):
         todo = Todo.objects.create(title=title, description=description, completed=completed, user=user)
         return todo
 
-    def update(self, instance, validated_data):
 
-        instance.completed = validated_data.get(
-            'completed', instance.completed)
-
-        instance.save()
-        return instance
+class ChangeTodoStatusSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Todo
+        fields = ('completed',)
 
 
 class UserSerializer(serializers.ModelSerializer):
